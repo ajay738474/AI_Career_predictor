@@ -1276,7 +1276,7 @@ function App() {
             try {
                 const response =
                     await fetch(
-                        "http://127.0.0.1:5000/predict",
+                        "https://ai-career-predictor-w2oa.onrender.com/predict",
                         {
                             method:
                                 "POST",
